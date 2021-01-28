@@ -1,6 +1,3 @@
-<html>
-<link rel="stylesheet" type="text/css" href="\css\style.css">
-</html>
 <footer>
 <div class="info">
 <span>О компании</span>
@@ -10,3 +7,5 @@
 <span>Личный кабинет</span>
 </div>
 </footer>
+</body>
+</html>

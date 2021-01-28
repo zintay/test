@@ -1,10 +1,5 @@
-<?php 
-                include 'header.php';
-        ?>
-<html> 
-<link rel="stylesheet" type="text/css" href="\css\style.css">
+<?php include 'header.php';
 
-<?php
 if(isset($_POST['name']) && isset($_POST['tel'])) 
 {
     $name = htmlentities($_POST['name']);
@@ -22,7 +17,6 @@ else
 $fh = fopen( 'file.txt', 'a' );
 fwrite( $fh,"Имя:$name,Контакты:$tel \n");
 fclose( $fh );
-
 ?>
 
 
@@ -32,4 +26,4 @@ fclose( $fh );
     <li>+7 235 12 23</li>
 </ul>
 <button><a href="http:/home.php">Назад</a></button>
-</html>
+
