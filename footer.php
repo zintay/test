@@ -7,5 +7,6 @@
         <span>Личный кабинет</span>
     </div>
 </footer>
+</div>
 </body>
 </html>
